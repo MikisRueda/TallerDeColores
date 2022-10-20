@@ -51,10 +51,10 @@ public class Brayaneitor {
     }
     
     public void preguntar(){
-        System.out.println("Brayaneitor: Qhubo socio me regala la hora?");
+        System.out.println(nombre+": Qhubo socio me regala la hora?");
     }
     
     public void chuzar(){
-        System.out.println("*Brayaneitor usa su "+arma+" para chuzar a su victima y luego corre*");
+        System.out.println("* "+nombre+"usa su "+arma+" para chuzar a su victima y luego corre *");
     }
 }
